@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $.ajax({
      type:'GET',
-     url: './data/navi.json',
+     url: 'data/navi.json',
      dataType:"text",
      success: function(data){
        var json = eval("("+data+")"); // text 변수 타입을 array
@@ -20,8 +20,13 @@ $(document).ready(function(){
          }
          naviTag += '</li>';
        }
-
        $("#navi").html(naviTag);
+
+       $("#navi").on('mouseenter', function(){
+         $("#hd").addClass('over');
+       }).on('mouseleave', function(){
+         $("#hd").removeClass('over');
+       });
      },
      error: function(data, status, error){
        alert("code:"+data.status+"\n"+"message:"+data.response);

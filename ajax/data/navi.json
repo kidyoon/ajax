@@ -1,32 +1,39 @@
 [
 {
- "cateName":"다음",
+ "cateName":"회사소개",
  "cateLink":"//daum.net",
- "cateParent" : false,
+ "cateParent" : true,
  "subMenu" : [
-       ["CAFE","cafe.daum.net"],
-       ["KakaoTalk","//www.kakaocorp.com/service/KakaoTalk"],
-       ["KakaoMap","//map.kakao.com"]
+       ["회사소개","//top.cafe.daum.net"],
+       ["CEO 인사말","//www.kakaocorp.com/service/KakaoTalk"],
+       ["찾아오는 길","//map.kakao.com"]
     ]
 },
 {
- "cateName":"네이버",
+ "cateName":"제품소개",
  "cateLink":"//naver.com",
  "cateParent" : true,
  "subMenu" : [
-      ["CAFE","//cafe.naver.com"],
-      ["BLOG","//blog.naver.com"],
-      ["SHOP","//shop.naver.com"]
+      ["신제품","//cafe.naver.com"],
+      ["할인행사","//blog.naver.com"],
     ]
 },
 {
- "cateName":"구글",
+ "cateName":"견적문의",
+ "cateLink":"//google.com",
+ "cateParent" : false,
+ "subMenu" : [
+
+    ]
+},
+{
+ "cateName":"SNS",
  "cateLink":"//google.com",
  "cateParent" : true,
  "subMenu" : [
-      ["인스타","//instagram.com"],
-      ["페이스북","//facebook.com"],
-      ["유튜브","//youtube.com"]
+        ["인스타그램", "//instagram.com"],
+        ["페이스북", "//facebook.com"],
+        ["유튜브", "//youtube.com"],
     ]
 },
 ]
