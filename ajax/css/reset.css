@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+*{
+margin: 0; padding: 0;
+font-family: "Gothic A1";
+line-height: 200%;
+font-size: 100%;
+color: #222
+}
+/* 인라인태그 a, input, span, strong, em, img -> text-align / vertical-align / text-indent */
+a{ color: #222; text-decoration: none;}
+img{ border: 0}

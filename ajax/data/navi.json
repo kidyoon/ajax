@@ -1,0 +1,32 @@
+[
+{
+ "cateName":"다음",
+ "cateLink":"//daum.net",
+ "cateParent" : false,
+ "subMenu" : [
+       ["CAFE","cafe.daum.net"],
+       ["KakaoTalk","//www.kakaocorp.com/service/KakaoTalk"],
+       ["KakaoMap","//map.kakao.com"]
+    ]
+},
+{
+ "cateName":"네이버",
+ "cateLink":"//naver.com",
+ "cateParent" : true,
+ "subMenu" : [
+      ["CAFE","//cafe.naver.com"],
+      ["BLOG","//blog.naver.com"],
+      ["SHOP","//shop.naver.com"]
+    ]
+},
+{
+ "cateName":"구글",
+ "cateLink":"//google.com",
+ "cateParent" : true,
+ "subMenu" : [
+      ["인스타","//instagram.com"],
+      ["페이스북","//facebook.com"],
+      ["유튜브","//youtube.com"]
+    ]
+},
+]
